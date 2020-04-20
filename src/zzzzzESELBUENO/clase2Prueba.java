@@ -30,6 +30,7 @@ class clase2Prueba {
 		nombre.add(5);
 		nombre.add(3);
 		nombre.add(7);
+		
 		String resultado=Clase2.metodoArrayList(nombre, 4);
 		assertEquals("La media de las notas es: 4",resultado);
 	}
