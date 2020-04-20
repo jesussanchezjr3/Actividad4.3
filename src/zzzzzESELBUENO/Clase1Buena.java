@@ -1,7 +1,7 @@
 package zzzzzESELBUENO;
 
 
-	import java.util.Scanner;
+	
 	import java.util.ArrayList;
 
 	public class Clase1Buena {
@@ -26,12 +26,20 @@ package zzzzzESELBUENO;
 			
 			metodoArray(numeros,contador);
 			
-
 		}
 		
-		public static void metodoArray(ArrayList numeros,int contador) {
-			System.out.println("La cantidad de numeros que acaba en 3 es: "+contador);
+		public static String metodoArray(ArrayList<Integer> numeros,int contador) {
 			
+			if (numeros==null) {
+				return "El ArrayList es nulo";
+			}else {
+				if (numeros.size()==0) {
+					return "El ArrayList esta vacio";
+				}else {
+					return "La cantidad de numeros que acaba en 3 es: "+contador;
+				}
+			}
+		
 		}
 
 }
