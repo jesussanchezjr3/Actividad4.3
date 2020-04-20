@@ -27,9 +27,17 @@ public class Clase2 {
 		metodoArrayList(a,media);
 	}
 
-	public static void metodoArrayList(ArrayList<Integer> a, int media) {
-	
-		System.out.println("La media de las notas es: " +media);
+	public static String metodoArrayList(ArrayList<Integer> a, int media) {
+		if(a==null) {
+			return"El arraylist es nulo";
+		}else {
+			if(a.size()==0) {
+				return"El arraylist esta vacio";
+			}else {
+				return"La media de las notas es: "+media;
+			}
+		
+		}
 	}
 
 }
