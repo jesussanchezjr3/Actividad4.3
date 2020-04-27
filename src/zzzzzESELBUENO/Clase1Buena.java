@@ -49,6 +49,7 @@ package zzzzzESELBUENO;
 			}else {
 				
 				if (numeros.size()==0) {
+					
 					return "El ArrayList esta vacio";
 				}else {
 					return "La cantidad de numeros que acaba en 3 es: "+contador;
