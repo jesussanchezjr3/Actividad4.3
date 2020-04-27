@@ -37,7 +37,7 @@ package zzzzzESELBUENO;
 		}
 		/**
 		 * 
-		 * Metodo al que le pasamos el arratlist y la variable contador y en el que hacemos las pruebas y comprobamos el tamaño del array.
+		 * Metodo al que le pasamos el arraylist y la variable contador y en el que hacemos las pruebas y comprobamos el tamaño del array.
 		 * @param numeros
 		 * @param contador
 		 * @return
