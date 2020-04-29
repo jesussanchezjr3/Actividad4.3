@@ -8,13 +8,20 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
-
+/**
+ * 
+ * @author Jesus
+ * @version 27-04-2020
+ */
 class Clase1Test {
-
+	/**
+	 * Creamos un arraylist y le añadimos 5 numeros con el .add , creamos la variable resultado y con assertequals comprobamos las que acaban en 3.
+	 * 
+	 */
 	@Test
 	void test() {
 		
-	
+		
 		ArrayList <Integer> obj = new ArrayList<Integer>();
 		obj.add(1);
 		obj.add(2);
@@ -29,7 +36,11 @@ class Clase1Test {
 	}
 	
 	
-
+	/**
+	 * Mismo método que el test0 pero cambiando ejemplo. 
+	 * Creamos un arraylist y le añadimos 5 numeros con el .add , creamos la variable resultado y con assertequals comprobamos las que acaban en 3.
+	 * 
+	 */
 	@Test
 	void test1() {
 		
@@ -47,7 +58,9 @@ class Clase1Test {
 		
 	}
 	
-	
+	/**
+	 * Creamos un arraylist nulo y la variable resultado a la que le pasamos el metodo de la clase normal y nos comprueba con assertequals que es nulo. 
+	 */
 	@Test
 	void test2() {
 		
@@ -59,6 +72,9 @@ class Clase1Test {
 		
 	}
 	
+	/**
+	 * Creamos arraylist y la variable resultado a la que le pasamos el metodo de la clase normal y con assertequals comprobamos que es un array vacio.
+	 */
 	@Test
 	void test3() {
 		
