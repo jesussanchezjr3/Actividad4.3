@@ -36,10 +36,10 @@ class clase2Prueba {
 	 * y ya se comprobaria si es null adjuntando el mismo texto y añadiendo la variable resultado
 	 */
 	
-	void test1() {
+	void test1 () {
 		ArrayList <Integer> nombre = null;
 		String resultado=Clase2.metodoArrayList(null, 0);
-		assertEquals("El arraylist es nulo",resultado);
+		assertEquals(" El arraylist es nulo",resultado);
 	}
 	
 	@Test
