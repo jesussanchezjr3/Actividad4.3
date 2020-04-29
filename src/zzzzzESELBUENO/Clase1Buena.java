@@ -14,7 +14,7 @@ package zzzzzESELBUENO;
 		 * Metodo main, creacion de arraylist al cual le pasamos unos numeros y lo recorremos con un for comprobando con un if si acaba en 3 o no. 
 		 * @param args
 		 */
-		public static void main(String[] args) {
+		public static void main( String[] args) {
 			
 			int contador=0;
 			ArrayList<Integer> numeros= new ArrayList<Integer>();
